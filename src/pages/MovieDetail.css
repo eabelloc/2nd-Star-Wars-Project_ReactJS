@@ -1,0 +1,16 @@
+.movie-figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 2rem;  
+}
+
+.movie-figure img{
+    height: 28rem;
+    width: 20rem;
+    object-fit: cover;
+    padding: 0.4rem;
+    border: 1px dashed whitesmoke
+}

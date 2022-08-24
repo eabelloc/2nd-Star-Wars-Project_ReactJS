@@ -1,0 +1,19 @@
+.character-portrait{
+    width: 12vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.character-portrait img{
+    width: 150px;
+    height: 150px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 0.8rem;
+}
+
+.character-portrait img:hover{
+    transform: scale(1.1);
+}

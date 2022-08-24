@@ -1,0 +1,16 @@
+.character-figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 2rem;  
+}
+
+.character-figure img{
+    height: 19rem;
+    width: 14rem;
+    object-fit: cover;
+    padding: 0.4rem;
+    border: 1px dashed whitesmoke
+}

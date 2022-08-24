@@ -1,0 +1,23 @@
+.characters {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.characters h2 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #dba90e;
+}
+
+.characters .gallery {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  padding-bottom: 5rem;
+  gap: 1rem;     
+}

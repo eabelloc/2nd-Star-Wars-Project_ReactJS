@@ -1,0 +1,13 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home p{
+    padding: 10rem 20rem;
+    text-align: justify;
+    color: #dba90e;
+    font-weight: bold;
+}

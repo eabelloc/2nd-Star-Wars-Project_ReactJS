@@ -1,0 +1,36 @@
+header nav {
+  height: 15vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  height: 5rem;
+}
+
+.logo img {
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.logo img:hover {
+  transform: scale(1.1);
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+}
+
+header nav ul li {
+  text-transform: uppercase;
+  font-weight: bolder;
+  transition: all 0.3s ease-in-out;
+}
+
+header nav ul li:hover {
+  color: #dba90e;
+}
