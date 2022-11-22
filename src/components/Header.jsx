@@ -6,7 +6,7 @@ const Header = () => {
     <header>
       <nav>
         <Link to="/" className="logo" >
-          <img src="../../public/logo.png" alt="Star Wars logo" />
+          <img src="/public/logo.png" alt="Star Wars logo" />
         </Link>
         <ul>
           <li>
