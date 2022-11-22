@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <header>
       <nav>
-        <Link to="/" className="logo" >
-          <img src="../../public/logo.png" alt="Star Wars logo" />
+        <Link to="/" className="logo">
+          <img src="/logo.png" alt="Star Wars logo" />
         </Link>
         <ul>
           <li>
